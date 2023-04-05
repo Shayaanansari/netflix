@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+width: 100%;
+height: 120vh;
+background-image:url(./IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+nav{
+   height: 100px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+
+    height: 106PX;
+    width: 170px;
+    margin-left: 129px;
+}
+
+.hero-section{
+   height: 100vh;
+   width: 100%;
+
+    align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     color: white;
+
+}
+.hero-section h1{
+    font-size: 50px;
+}
+.hero-section h4{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.hero-section p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.hero-section span{
+    margin-top: 20px;
+}
+span input{  
+    height: 60px;
+    width: 400px;
+    background-color:transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+span button {
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 200px;
+    font-size: 18px;
+
+
+}
+hr{
+    border: 4px solid grey;
+  
+}
+.tv-section{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    
+
+
+}
+.text-section{
+    width: 50%;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image-section{
+    width: 50%;display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-section h1{
+   
+    font-size: 60px;
+
+}
+.text-section p{
+   margin-top: 20px;
+    font-size: 25px;
+    
+}
+.image-section img{
+     height: 350px;
+     width: 500px;
+
+}
+.shayan{
+    background-color: black;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+.ayan{
+    margin-top:10px ;
+    color: white;
+    background-color: rgb(61, 58, 58);
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.ayan h1{
+    margin-left: 20px;
+}
+.ayan p {
+    margin-right: 20px;
+    font-size: 40px;
+    font-style: bold;
+}
+p{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+}
